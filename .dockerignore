@@ -1,0 +1,53 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Build files
+target/
+*.class
+*.jar
+!target/*.jar
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env*
+!.env.example
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Test files
+src/test/
+test-output/
+reports/
+
+# Development files
+docker-compose*.yml
+Dockerfile*
+.dockerignore
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Upload directory
+uploads/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp 
